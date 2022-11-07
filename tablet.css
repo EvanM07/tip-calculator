@@ -1,11 +1,78 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  #header {
-    font-size: 40px;
+/**************************************************************
 
-  }
-  body {
-    background-color: black;
-  }
+heading, heading paragraph, and body
+
+**************************************************************/
+
+#header {
+    font-size: 40px;
+}
+
+#heading_para {
+    margin-left: 1%;
+}
+
+
+/**************************************************************
+
+Alt button and refresh window button
+
+**************************************************************/
+
+#two_buttons {
+    width: 100%;
+}
+#alt_fun {
+    margin-left: 20%;
+    height: 25px;
+    width: 150px;
+}
+
+
+#refresh_page {
+    margin-left: 30%;
+    height: 25px;
+    width: 150px;
+
+}
+
+/**************************************************************
+
+input fields and submit button
+
+**************************************************************/
+#input_fields {
+    width: 100%;
+
+}
+
+#input_percentage {
+    margin-left:43% ;
+}
+
+#input_tax {
+    margin-left:43% ;
+}
+
+#input_sum {
+    margin-left:43% ;
+}
+
+#submit {
+    margin-left: 44.2%;
+    height: 25px;
+    width: 150px;
+
+}
+
+
+
+
+
+
+
+
 
     
   }
