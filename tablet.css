@@ -65,14 +65,45 @@ input fields and submit button
     width: 150px;
 
 }
-
-
-
-
-
-
-
-
-
-    
   }
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /**************************************************************
+    
+    heading, heading paragraph, and body
+    
+    **************************************************************/
+    
+    #heading_container {
+        width: 100%;
+    }
+    
+    #header {
+        font-size: 40px;
+    }
+    
+    #heading_para {
+        margin-left: 10%;
+    }
+    
+    /**************************************************************
+    
+    Alt button and refresh window button
+    
+    **************************************************************/
+    
+    #two_buttons {
+        flex-flow: column;
+        width: 50%;
+        margin-left: 25%;
+    }
+    #alt_fun {
+        margin-left: 38%;
+    
+    }
+    
+    #refresh_page {
+        margin-left: 38%;
+    
+    }
+    }
