@@ -26,16 +26,21 @@ function isEmpty() {
       
           // converts the variable to a float number so we can add them together 
           var total = parseFloat(tip) + parseFloat(sumI) + parseFloat(tax);
+
+          // making variables that equal the calculated user inputs. then the decimal place is fixed at 2 IE $3.69
+          var fixedNumber = tip.toFixed(2);
+          var fixedNumberTwo = tax.toFixed(2);
+          var fixedNumberThree = total.toFixed(2);
       
           // this template literal grabs the tip, tax, and total amount from the
           // tax, tip, and total variables 
           const sumy = `
           <br>
-          <p> The tip amount is: ${"$" + tip}</p>
+          <p> The tip amount is: ${"$" + fixedNumber}</p>
           <br>
-          <p> The Sales tax amount is: ${"$" + tax}<p>
+          <p> The Sales tax amount is: ${"$" + fixedNumberTwo}<p>
           <br>
-          <p> Your total including tip and tax is: ${"$" + total}</p>
+          <p> Your total including tip and tax is: ${"$" + fixedNumberThree}</p>
           `;
           // this gets the element "user_sum" and then injects the template literal so it displays to the user. 
           document.getElementById("user_sum").innerHTML = sumy;
@@ -68,13 +73,17 @@ if (emptySum && emptyTax !== "" && Math.sign(emptySum && emptyTax) !== -1) {
     // converts the variable to a float number so we can add them together 
     var total = parseFloat(sumI) + parseFloat(tax);
 
+    // making variables that equal the calculated user inputs. then the decimal place is fixed at 2 IE $3.69
+    var fixedNumberTwo = tax.toFixed(2);
+    var fixedNumberThree = total.toFixed(2);
+
     // this template literal grabs the tip, tax, and total amount from the
     // tax, tip, and total variables 
     const sumy2 = `
     <br>
-    <p> The Sales tax amount is: ${"$" + tax}<p>
+    <p> The Sales tax amount is: ${"$" + fixedNumberTwo}<p>
     <br>
-    <p> Your total with tax is: ${"$" + total}</p>
+    <p> Your total with tax is: ${"$" + fixedNumberThree}</p>
     `;
 // this gets the element "user_sum" and then injects the template literal so it displays to the user. 
 document.getElementById("user_sum").innerHTML = sumy2;
