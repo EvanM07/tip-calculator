@@ -1,0 +1,189 @@
+/**************************************************************
+
+heading, heading paragraph, and body
+
+**************************************************************/
+body {
+    background-color: #fff;
+}
+
+#header {
+    color: #4426f0; 
+    font-size: 25px;
+    font-family: 'Signika', sans-serif; 
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#heading_para {
+    display: flex;
+    font-family: 'Inder', sans-serif; 
+    line-height: 28px; 
+    margin-bottom: 15px; 
+    color: #666;
+    text-align: center;
+}
+
+/**************************************************************
+
+Alt button and refresh window button
+
+**************************************************************/
+
+#two_buttons {
+}
+
+#alt_fun {
+    margin-left: 10%;
+    border-radius: 12px;
+    box-shadow: 2px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+    background-color: lightslategray;
+}
+
+
+#alt_fun:hover {
+
+}
+
+#refresh_page {
+    margin-left: 30%;
+    border-radius: 12px;
+    box-shadow: 2px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+    background-color: lightslategray;
+}
+
+#refresh_page:hover {
+
+}
+
+/**************************************************************
+
+input fields and submit button
+
+**************************************************************/
+
+#input_fields {
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+#input_percentage {
+    border-radius: 12px;
+    border-width: 3px;
+    border-color: black;
+    border-style: groove;
+    height: 4mm;
+    margin-left:25% ;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+#input_percentage:hover {
+    background-color: black ;
+    border-radius: 0px;    
+    color: yellow;
+}
+
+#input_tax {
+    border-radius: 12px;
+    border-width: 3px;
+    border-color: black;
+    border-style: groove;
+    height: 4mm;
+    margin-left:25% ;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+#input_tax:hover {
+    background-color: black ;
+    border-radius: 0px;    
+    color: yellow;
+}
+
+#input_sum {
+    border-radius: 12px;
+    border-width: 3px;
+    border-color: black;
+    border-style: groove;
+    height: 4mm;
+    margin-left:25% ;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+#input_sum:hover {
+    background-color: black ;
+    border-radius: 0px;    
+    color: yellow;
+}
+
+#submit {
+    margin-left: 35%;
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: 2px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+    background-color: lightslategray;
+
+
+}
+#sumbit:hover {
+
+}
+
+/**************************************************************
+
+output of html from the template 
+
+**************************************************************/
+
+#user_sum {
+    display: -moz-box;
+    font-family: 'Inder', sans-serif; 
+    line-height: 28px; 
+    margin-bottom: 15px; 
+    color: #666;
+    text-align: center;
+}
+
+/**************************************************************
+
+Popup, paragraph, and close button
+**************************************************************/
+
+#dialog {
+    background-color: beige;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: groove;
+    border-color: aquamarine;
+    z-index: 3;
+    position: absolute;
+    top: 60px;
+
+}
+
+#words {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#hide {
+    background-color: lightslategray;
+    border-radius: 12px;
+    box-shadow: 2px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+}
+
+#hide:hover {
+
+}

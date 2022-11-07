@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip and Tax Calculator</title>
+    <link rel="icon" href="./images/mickey.JPG" type="image/icon type">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="./mobile.css">
+
+  </head>
+  <body>
+
+<main>
+      <div id="heading_container">
+        <h1 id="header"> The tip and tax calculator</h1>
+        <p id="heading_para">
+          Input the required information into the fields below for calculation. 
+          You'll see on the page three buttons one is for refreshing the window <br>  the 
+          second button is for if you just want to calculate just the sales tax. The third 
+          is for submitting the information so it can be worked on. 
+        </p>
+      </div>
+  <div id="two_buttons">
+    <!--User will click this button to change into the alt function of this website-->
+    <button id="alt_fun" onclick="startAltFun()"> Sales Tax </button>
+
+    <!-- This refreshes the browser-->
+    <button id="refresh_page" onclick="refreshPage()">Refresh Window </button>
+  </div>
+
+
+  <!--below the user will input values into the field and then click submit-->
+  <div id="input_fields">
+      <input type="number" placeholder="Input tip percentage here" id="input_percentage" > 
+      <br>
+      <br>
+        <input type="number" placeholder="Input your regions tax percentage" id="input_tax">
+      <br>
+      <br>
+        <input type="number" placeholder="Input amount here" id="input_sum"  > 
+        <br>
+      <!-- <button id="sum_button" onclick="onSubmit()"> Submit </button> -->
+      <button id="submit" onkeypress="launch()" onclick="launch()" >Submit</button>
+
+
+  </div>
+
+        <!-- This is where javascript is gonna inject that template literal-->
+        <p id="user_sum"> </p>
+        
+  <!-- this is the dialog box that will popup when user doesn't meet necessary  requirements for the input fields
+  in both function modes-->
+  <dialog id="dialog">  
+    <p id="words">Please make sure all fields are filled out and non negative numbers</p>
+    <button id="hide" onclick="closePopUp()">Close</button>  
+  </dialog>
+
+</main>
+  </body>
+</html>
