@@ -74,7 +74,7 @@ if (emptySum && emptyTax !== "" && Math.sign(emptySum && emptyTax) !== -1) {
     <br>
     <p> The Sales tax amount is: ${"$" + tax}<p>
     <br>
-    <p> Your total including tip and tax is: ${"$" + total}</p>
+    <p> Your total with tax is: ${"$" + total}</p>
     `;
 // this gets the element "user_sum" and then injects the template literal so it displays to the user. 
 document.getElementById("user_sum").innerHTML = sumy2;
