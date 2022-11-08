@@ -15,7 +15,6 @@ heading, heading paragraph, and body
 }
 
 #heading_para {
-    display: flex;
     font-family: 'Inder', sans-serif; 
     line-height: 28px; 
     margin-bottom: 1%; 
