@@ -1,4 +1,4 @@
-@media screen and (min-width: 481px ) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 481px ) and (max-width: 880px) and (orientation: landscape) {
 /**************************************************************
 
 heading, heading paragraph, and body
@@ -12,6 +12,7 @@ heading, heading paragraph, and body
     padding-bottom: 10px;
     text-align: center;
     font-variant: small-caps;
+
 }
 
 #heading_para {
