@@ -4,9 +4,6 @@
 heading, heading paragraph, and body
 
 **************************************************************/
-body {
-    background-color: lightskyblue;
-}
 #heading_container {
     width: 100%;
 }
@@ -43,7 +40,7 @@ Alt button and refresh window button
 }
 #alt_fun {
     margin-bottom: 10px;
-    margin-left: 37%;
+    margin-left: 39%;
     height: 25px;
     width: 150px;
     border-radius: 12px;
@@ -56,7 +53,7 @@ Alt button and refresh window button
 }
 
 #refresh_page {
-    margin-left: 37%;
+    margin-left: 39%;
     height: 25px;
     width: 150px;
     border-radius: 12px;
@@ -124,7 +121,7 @@ input fields and submit button
 
 
 #submit {
-    margin-left: 44%;
+    margin-left: 45%;
     height: 25px;
     width: 150px;
     margin-top: 10px;

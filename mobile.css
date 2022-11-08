@@ -34,7 +34,7 @@ Alt button and refresh window button
 **************************************************************/
 
 #alt_fun {
-    margin-left: 10%;
+    margin-left: 15%;
     border-radius: 12px;
     box-shadow: 2px 2px black;
     padding-left: 10px;
@@ -109,7 +109,7 @@ input fields, submit button, and placeholder text
 }
 
 #submit {
-    margin-left: 37%;
+    margin-left: 39%;
     margin-top: 10px;
     border-radius: 12px;
     box-shadow: 2px 2px black;
