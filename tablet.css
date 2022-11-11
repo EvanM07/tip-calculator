@@ -12,7 +12,6 @@ heading, heading paragraph, and body
     padding-bottom: 10px;
     text-align: center;
     font-variant: small-caps;
-
 }
 
 #heading_para {
@@ -45,8 +44,6 @@ Alt button and refresh window button
     background-color: lightslategray;
 }
 
-
-
 #refresh_page {
     margin-left: 30%;
     height: 25px;
@@ -57,7 +54,6 @@ Alt button and refresh window button
     padding-right: 10px;
     color: whitesmoke;
     background-color: lightslategray;
-
 }
 
 /**************************************************************
@@ -69,7 +65,6 @@ input fields and submit button
     width: 100%;
     background-color: #fff;
     margin-top: 20px;
-
 }
 
 #input_percentage {
@@ -142,6 +137,7 @@ output of html from the template
     text-align: center;
     font-variant: small-caps;
 }
+
 /**************************************************************
 
 Popup, paragraph, and close button
@@ -157,7 +153,6 @@ Popup, paragraph, and close button
     z-index: 3;
     position: absolute;
     top: 60px;
-
 }
 
 #words {
@@ -174,5 +169,4 @@ Popup, paragraph, and close button
     padding-right: 10px;
     color: whitesmoke;
 }
-
 }

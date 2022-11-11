@@ -1,4 +1,4 @@
-@media screen and (min-width: 481px ) and (max-width: 1024px) and (orientation: portrait) {
+@media screen and (min-width: 481px ) and (max-width: 880px) and (orientation: portrait) {
 /**************************************************************
 
 heading, heading paragraph, and body
@@ -36,7 +36,6 @@ Alt button and refresh window button
     flex-flow: column;
     width: 50%;
     margin-left: 20%;
-
 }
 #alt_fun {
     margin-bottom: 10px;
@@ -49,7 +48,6 @@ Alt button and refresh window button
     padding-right: 10px;
     color: whitesmoke;
     background-color: lightslategray;
-
 }
 
 #refresh_page {
@@ -62,8 +60,8 @@ Alt button and refresh window button
     padding-right: 10px;
     color: whitesmoke;
     background-color: lightslategray;
-
 }
+
 /**************************************************************
 
 input fields and submit button
@@ -74,7 +72,6 @@ input fields and submit button
     width: 100%;
     background-color: #fff;
     margin-top: 20px;
-
 }
 
 #input_percentage {
@@ -119,7 +116,6 @@ input fields and submit button
     padding-left: 10px;
 }
 
-
 #submit {
     margin-left: 34%;
     height: 25px;
@@ -148,6 +144,7 @@ output of html from the template
     text-align: center;
     font-variant: small-caps;
 }
+
 /**************************************************************
 
 Popup, paragraph, and close button
@@ -163,7 +160,6 @@ Popup, paragraph, and close button
     z-index: 3;
     position: absolute;
     top: 60px;
-
 }
 
 #words {
@@ -180,5 +176,4 @@ Popup, paragraph, and close button
     padding-right: 10px;
     color: whitesmoke;
 }
-
 }

@@ -15,7 +15,6 @@ body {
     padding-bottom: 10px;
     text-align: center;
     font-variant: small-caps;
-
 }
 
 #heading_para {
@@ -150,7 +149,6 @@ Popup, paragraph, and close button
     z-index: 3;
     position: absolute;
     top: 60px;
-
 }
 
 #words {
@@ -167,5 +165,4 @@ Popup, paragraph, and close button
     padding-right: 10px;
     color: whitesmoke;
 }
-
 }
