@@ -100,6 +100,10 @@ input fields and submit button
 #input_percentage::placeholder {
     padding-left: 10px;
 }
+#input_percentage:hover {
+    background-color: lightgrey;
+    border-color: rgb(118, 25, 25);
+}
 
 #input_tax {
     margin-left:43% ;
@@ -114,6 +118,10 @@ input fields and submit button
 #input_tax::placeholder {
     padding-left: 10px;
 }
+#input_tax:hover {
+    background-color: lightgrey;
+    border-color: rgb(118, 25, 25);
+}
 
 #input_sum {
     margin-left:43% ;
@@ -127,6 +135,10 @@ input fields and submit button
 }
 #input_sum::placeholder {
     padding-left: 10px;
+}
+#input_sum:hover {
+    background-color: lightgrey;
+    border-color: rgb(118, 25, 25);
 }
 
 #submit {
