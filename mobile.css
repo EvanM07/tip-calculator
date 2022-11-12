@@ -1,38 +1,38 @@
-@media screen and  (min-width: 300px ) and (max-width: 480px ) {
-/**************************************************************
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  /**************************************************************
 
 heading, heading paragraph, and body
 
 **************************************************************/
-body {
+  body {
     background-color: #fff;
-}
+  }
 
-#header {
-    color: #4426f0; 
+  #header {
+    color: #4426f0;
     font-size: 25px;
-    font-family: 'Signika', sans-serif; 
+    font-family: "Signika", sans-serif;
     padding-bottom: 10px;
     text-align: center;
     font-variant: small-caps;
-}
+  }
 
-#heading_para {
+  #heading_para {
     display: flex;
-    font-family: 'Inder', sans-serif; 
-    line-height: 28px; 
-    margin-bottom: 15px; 
+    font-family: "Inder", sans-serif;
+    line-height: 28px;
+    margin-bottom: 15px;
     color: #666;
     text-align: center;
-}
+  }
 
-/**************************************************************
+  /**************************************************************
 
 Alt button and refresh window button
 
 **************************************************************/
 
-#alt_fun {
+  #alt_fun {
     margin-left: 10%;
     border-radius: 12px;
     box-shadow: 2px 2px black;
@@ -40,9 +40,9 @@ Alt button and refresh window button
     padding-right: 10px;
     color: whitesmoke;
     background-color: lightslategray;
-}
+  }
 
-#refresh_page {
+  #refresh_page {
     margin-left: 24%;
     border-radius: 12px;
     box-shadow: 2px 2px black;
@@ -50,64 +50,62 @@ Alt button and refresh window button
     padding-right: 10px;
     color: whitesmoke;
     background-color: lightslategray;
-}
+  }
 
-/**************************************************************
+  /**************************************************************
 
 input fields, submit button, and placeholder text
 
 **************************************************************/
 
-#input_fields {
+  #input_fields {
     background-color: #fff;
     margin-top: 20px;
-}
+  }
 
-
-#input_percentage {
+  #input_percentage {
     border-radius: 12px;
     border-width: 2px;
     border-style: solid;
     border-color: black;
     height: 4mm;
-    margin-left:25% ;
+    margin-left: 25%;
     padding-top: 5px;
     padding-bottom: 3px;
-}
-#input_percentage::placeholder {
+  }
+  #input_percentage::placeholder {
     padding-left: 10px;
-}
+  }
 
-#input_tax {
+  #input_tax {
     border-radius: 12px;
     border-width: 2px;
     border-style: solid;
     border-color: black;
     height: 4mm;
-    margin-left:25% ;
+    margin-left: 25%;
     padding-top: 5px;
     padding-bottom: 3px;
-}
-#input_tax::placeholder {
+  }
+  #input_tax::placeholder {
     padding-left: 10px;
-}
+  }
 
-
-#input_sum {
+  #input_sum {
     border-radius: 12px;
     border-width: 2px;
     border-style: solid;
     border-color: black;
     height: 4mm;
-    margin-left:25% ;
+    margin-left: 25%;
     padding-top: 5px;
     padding-bottom: 3px;
-}
-#input_sum::placeholder {
+  }
+  #input_sum::placeholder {
     padding-left: 10px;
-}
+  }
 
-#submit {
+  #submit {
     margin-left: 39%;
     margin-top: 10px;
     border-radius: 12px;
@@ -116,31 +114,31 @@ input fields, submit button, and placeholder text
     padding-right: 10px;
     color: whitesmoke;
     background-color: lightslategray;
-}
+  }
 
-/**************************************************************
+  /**************************************************************
 
 output of html from the template 
 
 **************************************************************/
 
-#user_sum {
+  #user_sum {
     display: -moz-box;
-    font-family: 'Inder', sans-serif; 
-    line-height: 28px; 
-    margin-bottom: 15px; 
+    font-family: "Inder", sans-serif;
+    line-height: 28px;
+    margin-bottom: 15px;
     color: #666;
     text-align: center;
     font-variant: small-caps;
-}
+  }
 
-/**************************************************************
+  /**************************************************************
 
 Popup, paragraph, and close button
 
 **************************************************************/
 
-#dialog {
+  #dialog {
     background-color: beige;
     border-radius: 8px;
     border-width: 1px;
@@ -149,20 +147,20 @@ Popup, paragraph, and close button
     z-index: 3;
     position: absolute;
     top: 60px;
-}
+  }
 
-#words {
+  #words {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
-}
+  }
 
-#hide {
+  #hide {
     background-color: lightslategray;
     border-radius: 12px;
     box-shadow: 2px 2px black;
     padding-left: 10px;
     padding-right: 10px;
     color: whitesmoke;
-}
+  }
 }

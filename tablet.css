@@ -1,38 +1,37 @@
-@media screen and (min-width: 481px ) and (max-width: 880px) and (orientation: landscape) {
-/**************************************************************
+@media screen and (min-width: 481px) and (max-width: 880px) and (orientation: landscape) {
+  /**************************************************************
 
 heading, heading paragraph, and body
 
 **************************************************************/
 
-#header {
+  #header {
     font-size: 40px;
-    color: #4426f0; 
-    font-family: 'Signika', sans-serif; 
+    color: #4426f0;
+    font-family: "Signika", sans-serif;
     padding-bottom: 10px;
     text-align: center;
     font-variant: small-caps;
-}
+  }
 
-#heading_para {
-    font-family: 'Inder', sans-serif; 
-    line-height: 28px; 
-    margin-bottom: 1%; 
+  #heading_para {
+    font-family: "Inder", sans-serif;
+    line-height: 28px;
+    margin-bottom: 1%;
     color: #666;
     text-align: center;
-}
+  }
 
-
-/**************************************************************
+  /**************************************************************
 
 Alt button and refresh window button
 
 **************************************************************/
 
-#two_buttons {
+  #two_buttons {
     width: 100%;
-}
-#alt_fun {
+  }
+  #alt_fun {
     margin-left: 20%;
     height: 25px;
     width: 150px;
@@ -42,9 +41,9 @@ Alt button and refresh window button
     padding-right: 10px;
     color: whitesmoke;
     background-color: lightslategray;
-}
+  }
 
-#refresh_page {
+  #refresh_page {
     margin-left: 30%;
     height: 25px;
     width: 150px;
@@ -54,21 +53,21 @@ Alt button and refresh window button
     padding-right: 10px;
     color: whitesmoke;
     background-color: lightslategray;
-}
+  }
 
-/**************************************************************
+  /**************************************************************
 
 input fields and submit button
 
 **************************************************************/
-#input_fields {
+  #input_fields {
     width: 100%;
     background-color: #fff;
     margin-top: 20px;
-}
+  }
 
-#input_percentage {
-    margin-left:43% ;
+  #input_percentage {
+    margin-left: 43%;
     border-radius: 12px;
     border-width: 2px;
     border-style: solid;
@@ -76,13 +75,13 @@ input fields and submit button
     height: 4mm;
     padding-top: 5px;
     padding-bottom: 3px;
-}
-#input_percentage::placeholder {
+  }
+  #input_percentage::placeholder {
     padding-left: 10px;
-}
+  }
 
-#input_tax {
-    margin-left:43% ;
+  #input_tax {
+    margin-left: 43%;
     border-radius: 12px;
     border-width: 2px;
     border-style: solid;
@@ -90,13 +89,13 @@ input fields and submit button
     height: 4mm;
     padding-top: 5px;
     padding-bottom: 3px;
-}
-#input_tax::placeholder {
+  }
+  #input_tax::placeholder {
     padding-left: 10px;
-}
+  }
 
-#input_sum {
-    margin-left:43% ;
+  #input_sum {
+    margin-left: 43%;
     border-radius: 12px;
     border-width: 2px;
     border-style: solid;
@@ -104,12 +103,12 @@ input fields and submit button
     height: 4mm;
     padding-top: 5px;
     padding-bottom: 3px;
-}
-#input_sum::placeholder {
+  }
+  #input_sum::placeholder {
     padding-left: 10px;
-}
+  }
 
-#submit {
+  #submit {
     margin-left: 45%;
     height: 25px;
     width: 150px;
@@ -120,31 +119,31 @@ input fields and submit button
     padding-right: 10px;
     color: whitesmoke;
     background-color: lightslategray;
-}
+  }
 
-/**************************************************************
+  /**************************************************************
 
 output of html from the template 
 
 **************************************************************/
 
-#user_sum {
+  #user_sum {
     display: -moz-box;
-    font-family: 'Inder', sans-serif; 
-    line-height: 28px; 
-    margin-bottom: 15px; 
+    font-family: "Inder", sans-serif;
+    line-height: 28px;
+    margin-bottom: 15px;
     color: #666;
     text-align: center;
     font-variant: small-caps;
-}
+  }
 
-/**************************************************************
+  /**************************************************************
 
 Popup, paragraph, and close button
 
 **************************************************************/
 
-#dialog {
+  #dialog {
     background-color: beige;
     border-radius: 8px;
     border-width: 1px;
@@ -153,20 +152,20 @@ Popup, paragraph, and close button
     z-index: 3;
     position: absolute;
     top: 60px;
-}
+  }
 
-#words {
+  #words {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
-}
+  }
 
-#hide {
+  #hide {
     background-color: lightslategray;
     border-radius: 12px;
     box-shadow: 2px 2px black;
     padding-left: 10px;
     padding-right: 10px;
     color: whitesmoke;
-}
+  }
 }
