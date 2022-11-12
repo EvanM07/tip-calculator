@@ -1,4 +1,16 @@
 @media screen and (min-width: 300px) and (max-width: 480px) {
+      /**************************************************************
+
+Navigation bar 
+
+**************************************************************/
+.btn {
+  margin-left: 30%;
+}
+.dropdown-item {
+  color: white;
+}
+
   /**************************************************************
 
 heading, heading paragraph, and body
@@ -68,7 +80,7 @@ input fields, submit button, and placeholder text
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    height: 4mm;
+    height: 7mm;
     margin-left: 25%;
     padding-top: 5px;
     padding-bottom: 3px;
@@ -82,7 +94,7 @@ input fields, submit button, and placeholder text
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    height: 4mm;
+    height: 7mm;
     margin-left: 25%;
     padding-top: 5px;
     padding-bottom: 3px;
@@ -96,7 +108,7 @@ input fields, submit button, and placeholder text
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    height: 4mm;
+    height: 7mm;
     margin-left: 25%;
     padding-top: 5px;
     padding-bottom: 3px;

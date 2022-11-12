@@ -1,4 +1,14 @@
 @media screen and (min-width: 481px) and (max-width: 880px) and (orientation: landscape) {
+      /**************************************************************
+
+Navigation bar 
+
+**************************************************************/
+
+.dropdown-item {
+  color: white;
+}
+
   /**************************************************************
 
 heading, heading paragraph, and body
@@ -72,7 +82,7 @@ input fields and submit button
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    height: 4mm;
+    height: 7mm;
     padding-top: 5px;
     padding-bottom: 3px;
   }
@@ -86,7 +96,7 @@ input fields and submit button
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    height: 4mm;
+    height: 7mm;
     padding-top: 5px;
     padding-bottom: 3px;
   }
@@ -100,7 +110,7 @@ input fields and submit button
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    height: 4mm;
+    height: 7mm;
     padding-top: 5px;
     padding-bottom: 3px;
   }
