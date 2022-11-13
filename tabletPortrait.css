@@ -53,7 +53,7 @@ Alt button and refresh window button
   }
   #alt_fun {
     margin-bottom: 10px;
-    margin-left: 27%;
+    margin-left: 29%;
     height: 25px;
     width: 150px;
     border-radius: 12px;
@@ -65,7 +65,7 @@ Alt button and refresh window button
   }
 
   #refresh_page {
-    margin-left: 27%;
+    margin-left: 29%;
     height: 25px;
     width: 150px;
     border-radius: 12px;
@@ -131,7 +131,7 @@ input fields and submit button
   }
 
   #submit {
-    margin-left: 34%;
+    margin-left: 36%;
     height: 25px;
     width: 150px;
     margin-top: 10px;
