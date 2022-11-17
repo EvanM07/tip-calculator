@@ -9,9 +9,7 @@ Navigation bar
   color: white;
 
 }
-.btn {
-  margin-left: 40%;
-}
+
 
   /**************************************************************
 
@@ -54,7 +52,7 @@ Alt button and refresh window button
   }
   #alt_fun {
     margin-bottom: 10px;
-    margin-left: 29%;
+    margin-left: 31%;
     height: 25px;
     width: 150px;
     border-radius: 12px;
@@ -66,7 +64,7 @@ Alt button and refresh window button
   }
 
   #refresh_page {
-    margin-left: 29%;
+    margin-left: 31%;
     height: 25px;
     width: 150px;
     border-radius: 12px;
@@ -90,7 +88,7 @@ input fields and submit button
   }
 
   #input_percentage {
-    margin-left: 28%;
+    margin-left: 30%;
     border-radius: 12px;
     border-width: 2px;
     border-style: solid;
@@ -104,7 +102,7 @@ input fields and submit button
   }
 
   #input_tax {
-    margin-left: 28%;
+    margin-left: 30%;
     border-radius: 12px;
     border-width: 2px;
     border-style: solid;
@@ -118,7 +116,7 @@ input fields and submit button
   }
 
   #input_sum {
-    margin-left: 28%;
+    margin-left: 30%;
     border-radius: 12px;
     border-width: 2px;
     border-style: solid;
@@ -132,7 +130,7 @@ input fields and submit button
   }
 
   #submit {
-    margin-left: 36%;
+    margin-left: 38%;
     height: 25px;
     width: 150px;
     margin-top: 10px;
